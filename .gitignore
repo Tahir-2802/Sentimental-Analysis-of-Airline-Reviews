@@ -16,10 +16,10 @@ build/
 incoming_flights/
 *.json
 
-# Model files (too large for GitHub - network upload fails)
-ABSA_UI/Model/*.safetensors
-ABSA_UI/Model/*.bin
+# Allow model files (tracked via Git LFS)
 !ABSA_UI/Model/config.json
+!ABSA_UI/Model/*.safetensors
+!ABSA_UI/Model/*.bin
 
 # Allow small sample CSVs for demonstration
 !ABSA_UI/samples/*.csv

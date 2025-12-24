@@ -1,2 +1,4 @@
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
+ABSA_UI/Model/*.safetensors filter=lfs diff=lfs merge=lfs -text
+ABSA_UI/Model/*.bin filter=lfs diff=lfs merge=lfs -text

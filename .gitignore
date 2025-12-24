@@ -21,6 +21,9 @@ ABSA_UI/Model/*.safetensors
 ABSA_UI/Model/*.bin
 !ABSA_UI/Model/config.json
 
+# Allow small sample CSVs for demonstration
+!ABSA_UI/samples/*.csv
+
 # IDE
 .vscode/
 .idea/

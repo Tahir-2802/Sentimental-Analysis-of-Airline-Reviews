@@ -59,7 +59,14 @@ python -c "import nltk; nltk.download('punkt')"
      - `vocab.txt`
      - `model.safetensors` (or `pytorch_model.bin`)
      - `training_args.bin`
-   - Or train your own model using your airline reviews dataset
+  - Or train your own model using your airline reviews dataset
+
+5. Optional: Use sample data
+  - A tiny sample is provided in `ABSA_UI/samples/AI301_sample.csv`
+  - To test quickly, copy it into `ABSA_UI/incoming_flights/`:
+```powershell
+Copy-Item "ABSA_UI/samples/AI301_sample.csv" "ABSA_UI/incoming_flights/AI301_BOM-DEL_20251001_0600.csv" -Force
+```
 
 ## Usage
 
